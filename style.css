@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #333333;
+}
+
+.container {
+  position: absolute;
+  width: 133px;
+  height: 25px;
+  left: 24px;
+  top: 20px;
+}
+.container h2 {
+  font-family: Inconsolata;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 25px;
+  letter-spacing: -0.08em;
+  text-transform: uppercase;
+}
+.flex-container {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  top: 120px;
+}
+.not-found-image {
+  width: 50%;
+}
+.not-found-image img {
+  display: block;
+  width: 100%;
+}
+.not-found-content {
+  margin-top: 50px;
+  width: 50%;
+}
+.not-found-content h1 {
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 95px;
+  letter-spacing: -0.035em;
+}
+.not-found-content p {
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.035em;
+}
+.paragraph {
+  margin-top: 80px;
+  width: 381px;
+  top: 491px;
+}
+
+.button {
+  margin-top: 50px;
+}
+button {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  background: #212529;
+}
