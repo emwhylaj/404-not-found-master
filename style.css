@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500;600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Space+Mono&display=swap');
 
 * {
   box-sizing: border-box;
@@ -30,6 +30,7 @@
   width: 100%;
   height: 50px;
   top: 120px;
+  margin: 15px;
 }
 .not-found-image {
   width: 50%;
@@ -78,9 +79,27 @@ button {
   position: relative;
   display: inline-block;
   outline: none;
-  border-radius: 5px;
   border: none;
-  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
-    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
-  background: #212529;
+  background: #333333;
+}
+
+.footer{
+  position: absolute;
+width: 287px;
+height: 17px;
+left: 577px;
+top: 939px;
+}
+
+.footer p{
+  font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+text-align: center;
+
+color: #BDBDBD;
 }
